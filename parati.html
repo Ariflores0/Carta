@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Para ti 💖</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            font-family: 'Georgia', serif;
+            text-align: center;
+            padding: 60px 20px;
+            overflow-x: hidden;
+        }
+
+        /* 💗 FONDO DE CORAZONES */
+        .corazones {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .corazon {
+            position: absolute;
+            color: rgba(255, 51, 102, 0.6);
+            font-size: 26px;
+            animation: flotar 12s linear infinite;
+        }
+
+        @keyframes flotar {
+            0% {
+                transform: translateY(100vh) scale(1);
+                opacity: 0;
+            }
+            10% { opacity: 1; }
+            100% {
+                transform: translateY(-10vh) scale(1.6);
+                opacity: 0;
+            }
+        }
+
+        /* ✉️ CARTA */
+        .carta {
+            background: #fffaf3;
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 45px 40px;
+            border-radius: 18px;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+            position: relative;
+        }
+
+        .carta::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 18px;
+            background-image: repeating-linear-gradient(
+                #fffaf3,
+                #fffaf3 28px,
+                #f1e3d3 29px
+            );
+            opacity: 0.35;
+            pointer-events: none;
+        }
+
+        h1 {
+            color: #8b0038;
+            font-size: 34px;
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        p {
+            font-size: 20px;
+            color: #4a2a2a;
+            line-height: 1.8;
+            margin: 16px 0;
+            position: relative;
+            text-align: left;
+        }
+
+        .firma {
+            margin-top: 35px;
+            font-style: italic;
+            font-size: 19px;
+            color: #8b0038;
+            position: relative;
+            text-align: right;
+        }
+
+        /* 🎶 CANCIÓN */
+        .video-box {
+            margin-top: 45px;
+            background: white;
+            padding: 22px;
+            border-radius: 20px;
+            max-width: 560px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .dedicatoria {
+            margin-bottom: 12px;
+            font-size: 18px;
+            color: #b30059;
+            font-style: italic;
+        }
+
+        a {
+            display:inline-block;
+            margin-top:10px;
+            padding:12px 25px;
+            background:#ff3366;
+            color:white;
+            text-decoration:none;
+            border-radius:25px;
+            font-size:18px;
+        }
+
+        a:hover {
+            background:#cc0044;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 💗 CORAZONES -->
+    <div class="corazones">
+        <span class="corazon" style="left:8%; animation-delay:0s;">💖</span>
+        <span class="corazon" style="left:22%; animation-delay:3s;">💗</span>
+        <span class="corazon" style="left:38%; animation-delay:6s;">💘</span>
+        <span class="corazon" style="left:54%; animation-delay:2s;">💖</span>
+        <span class="corazon" style="left:70%; animation-delay:5s;">💗</span>
+        <span class="corazon" style="left:86%; animation-delay:1s;">💘</span>
+        <span class="corazon" style="left:8%; animation-delay:0s;">💖</span>
+        <span class="corazon" style="left:22%; animation-delay:3s;">💗</span>
+        <span class="corazon" style="left:38%; animation-delay:6s;">💘</span>
+        <span class="corazon" style="left:54%; animation-delay:2s;">💖</span>
+        <span class="corazon" style="left:70%; animation-delay:5s;">💗</span>
+        <span class="corazon" style="left:86%; animation-delay:1s;">💘</span>
+    </div>
+
+    <!-- ✉️ CARTA -->
+    <div class="carta">
+        <h1>Hola Carlos 💌</h1>
+
+        <p>Me enamoré… y no solo de tu físico, aunque quizás también.</p>
+
+        <p>
+            Me enamoré de lo más esencial en ti: de tu forma de hablar,
+            de pensar, de mirar, de ver el mundo de una manera distinta.
+            Me enamoré de tus manos, de tus labios, de tu mente.
+            Me enamoré completamente de ti.
+        </p>
+
+        <p>
+            Pase lo que pase, quiero que sepas que siempre te quedarás
+            en mi corazón. Ya tatuaste tu nombre en mi pecho de una forma
+            que nada ni nadie podrá borrar.
+        </p>
+
+        <p>
+            Me enamoré incluso de las letras de tu nombre,
+            de tus ojos… esos ojos dulces y bellos que me hacían sentir
+            más fuerte, de tu hermosa sonrisa, de tu voz…
+            esa que hacía que los minutos se convirtieran en horas
+            cuando estaba contigo.
+        </p>
+
+        <p>
+            Déjame ser el amor más bonito que hayas tenido.
+            Déjame amarte como nadie lo ha hecho.
+            Déjame entrar en tu vida como un torbellino
+            y arrasarte el corazón de alegría y amor.
+        </p>
+
+        <p>
+            Tal vez no sea el mejor pintor, pero tú eres mi obra de arte favorita.
+            Tal vez no sea un astronauta, pero al verte solo pensé en la luna:
+            hermosa, brillante, perfecta en su mejor punto,
+            inalcanzable para muchos.
+        </p>
+
+        <p>
+            Me enamoré de ti no por tu físico, sino por la forma en la que eres.
+            Conocerte fue como escuchar una canción por primera vez
+            y saber que sería mi favorita, esa que nunca cansa
+            y siempre seguirá siendo hermosa.
+        </p>
+
+        <p>
+            En este dia quiero que sepas que si el mundo se pone
+            en contra de ti, estará en contra de los dos.
+            Siempre estaré apoyándote, alegrando tus días
+            y cuidando ese brillo en tus hermosos ojos.
+        </p>
+
+        <p>
+            Para mí significas más de lo que imaginas.
+            Eres mi tesoro más preciado,
+            mis alegrías de cada día.
+            Y en ti, sin darme cuenta,
+            se quedó mi corazón.
+        </p>
+
+        <div class="firma">
+            Con todo mi cariño 💖
+        </div>
+    </div>
+
+    <!-- 🎶 CANCIÓN -->
+    <div class="video-box">
+        <div class="dedicatoria">Te la dedico 💖</div>
+
+        <a href="https://www.youtube.com/watch?v=XqoTEpyZisc" target="_blank">
+            🎶 Escuchar la canción
+        </a>
+    </div>
+
+</body>
+</html>
